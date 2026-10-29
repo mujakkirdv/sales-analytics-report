@@ -1,0 +1,42 @@
+# Environment & secrets
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated artifacts
+output.html
+*.pdf
+targets.json
+*.docx
+*.csv
+*.xlsx
+assets/qr_*.png
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Notebooks (optional — uncomment if you don't want to share)
+# notebooks/*.ipynb.env 
+venv/ 
+__pycache__/ 
