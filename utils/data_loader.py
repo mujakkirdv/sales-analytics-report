@@ -39,7 +39,10 @@ def get_db_engine():
         )
 
     port = str(port) if port else "5432"
-    conn_str = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{dbname}"
+    
+    # ✅ FIX APPLIED: Added ?sslmode=require to the end of the connection string
+    conn_str = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{dbname}?sslmode=require"
+    
     return create_engine(conn_str)
 
 
