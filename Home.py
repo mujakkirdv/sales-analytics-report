@@ -6,9 +6,9 @@ from utils.qr_generator import generate_qr
 # ============================================================================
 # CONFIGURATION — EDIT THESE TO MATCH YOUR PROJECT
 # ============================================================================
-GITHUB_REPO_URL = "https://github.com/mujakkirdv/sales-analytics-project"
-EDA_NOTEBOOK_URL = "https://github.com/mujakkirdv/sales-analytics-project/blob/main/notebooks/eda.ipynb"
-LINKEDIN_URL = "https://linkedin.com/in/mujakkir-dv"
+GITHUB_REPO_URL = "https://github.com/mujakkirdv/sales-analytics-report"
+EDA_NOTEBOOK_URL = "https://github.com/mujakkirdv/sales-analytics-report/tree/main/notebooks"
+LINKEDIN_URL = "https://www.linkedin.com/in/mujakkir-dv/"
 EMAIL = "mujakkir.dv@gmail.com"
 AUTHOR_NAME = "Mujakir Ahmad"
 
